@@ -17,4 +17,10 @@
 10、	搭了一个前端框架vue+element，vue-cli3，主要是为了搭配oauth2，可以进行测试效果，可以工作用，前端代码可以测试url访问权限，可以图片的上传、展示、删除，word的上传、预览、删除，有的为了方便，简略下了，但是框架没问题。
 11、	练习了一下部署前后端项目，后端打成jar包，linux部署，同时部署两个微服务，内存每个给了512，超了，服务器总共才1个G，后来改成128。前端可以用nginx部署和tomcat部署，分别解决刷新404的问题，开启nginx的gzip压缩，我有一个8M的js文件，如果不用gzip压缩，首次访问网页的效果，需要等待30秒，如果用gzip，只需5秒。前端vue用hash模式和history模式分别部署。他们的区别是在vue.config.js中publicPath的属性设置为hash模式是./,history模式是/或/web_test/，其中web_test是文件夹的名字。
 
-图片见data文件夹。
+postman:
+
+https://github.com/momojiazhu/-oauth2/blob/master/data/1.png
+
+https://github.com/momojiazhu/-oauth2/blob/master/data/2.png
+
+https://github.com/momojiazhu/-oauth2/blob/master/data/3.png
