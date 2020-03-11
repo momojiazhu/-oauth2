@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gaobo.system.dao.DeptMapper">
+    <select id="selectListByCondition" parameterType="com.gaobo.system.control.request.DeptRequest"
+            resultType="com.gaobo.system.model.DeptModel">
+        select * from dept
+        where
+        1=1
+        <if test="id!=null">
+            and id = #{id}
+        </if>
+        <if test="deptName!=null and deptName!=''">
+            and dept_name = #{deptName}
+        </if>
+        <if test="isDel!=null">
+            and is_del = #{isDel}
+        </if>
+        <if test="createTimeStart!=null">
+            and create_time &gt;= DATE_FORMAT(#{createTimeStart},'%Y-%m-%d %T')
+        </if>
+        <if test="createTimeEnd!=null">
+            and create_time &lt;= DATE_FORMAT(#{createTimeEnd},'%Y-%m-%d %T')
+        </if>
+        <if test="updateTimeStart!=null">
+            and update_time &gt;= DATE_FORMAT(#{updateTimeStart},'%Y-%m-%d %T')
+        </if>
+        <if test="updateTimeEnd!=null">
+            and update_time &lt;= DATE_FORMAT(#{updateTimeEnd},'%Y-%m-%d %T')
+        </if>
+
+    </select>
+
+    <select id="selectListByConditionByPage" parameterType="com.gaobo.system.control.request.DeptRequest"
+            resultType="com.gaobo.system.model.DeptModel">
+        select * from dept
+        where
+        1=1
+        <if test="id!=null">
+            and id = #{id}
+        </if>
+        <if test="deptName!=null and deptName!=''">
+            and dept_name = #{deptName}
+        </if>
+        <if test="isDel!=null">
+            and is_del = #{isDel}
+        </if>
+        <if test="createTimeStart!=null">
+            and create_time &gt;= DATE_FORMAT(#{createTimeStart},'%Y-%m-%d %T')
+        </if>
+        <if test="createTimeEnd!=null">
+            and create_time &lt;= DATE_FORMAT(#{createTimeEnd},'%Y-%m-%d %T')
+        </if>
+        <if test="updateTimeStart!=null">
+            and update_time &gt;= DATE_FORMAT(#{updateTimeStart},'%Y-%m-%d %T')
+        </if>
+        <if test="updateTimeEnd!=null">
+            and update_time &lt;= DATE_FORMAT(#{updateTimeEnd},'%Y-%m-%d %T')
+        </if>
+
+    </select>
+</mapper>

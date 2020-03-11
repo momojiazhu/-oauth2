@@ -1,0 +1,338 @@
+2020/03/11 === [main] == INFO  == com.gaobo.system.SystemApplication == The following profiles are active: dev
+2020/03/11 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == No MyBatis mapper was found in '[com.gaobo.system]' package. Please check your configuration.
+2020/03/11 === [main] == INFO  == o.springframework.cloud.context.scope.GenericScope == BeanFactory id=15496020-18e5-3f63-b38b-3e3d0bc60382
+2020/03/11 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9de9f6bc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/03/11 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$3697bef6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/03/11 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/03/11 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3a790e40' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/03/11 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$5b6c61a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/03/11 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/03/11 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ba03f9b9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/03/11 === [main] == INFO  == o.s.boot.web.embedded.tomcat.TomcatWebServer == Tomcat initialized with port(s): 8088 (http)
+2020/03/11 === [main] == INFO  == org.apache.catalina.core.StandardService == Starting service [Tomcat]
+2020/03/11 === [main] == INFO  == org.apache.catalina.core.StandardEngine == Starting Servlet engine: [Apache Tomcat/9.0.14]
+2020/03/11 === [main] == INFO  == org.apache.catalina.core.AprLifecycleListener == The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;D:\data\sqlserver\exe\share\120\DTS\Binn\;D:\data\sqlserver\exe\share\Client SDK\ODBC\110\Tools\Binn\;D:\data\sqlserver\exe\share_x86\120\Tools\Binn\;D:\data\sqlserver\exe\share\120\Tools\Binn\;D:\data\sqlserver\exe\share_x86\120\Tools\Binn\ManagementStudio\;D:\data\sqlserver\exe\share_x86\120\DTS\Binn\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37;;D:\data\前端\vscode\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm;.]
+2020/03/11 === [main] == INFO  == o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] == Initializing Spring embedded WebApplicationContext
+2020/03/11 === [main] == INFO  == org.springframework.web.context.ContextLoader == Root WebApplicationContext: initialization completed in 1677 ms
+2020/03/11 === [main] == WARN  == o.s.s.o.p.token.store.JwtAccessTokenConverter == Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2020/03/11 === [main] == INFO  == o.s.b.actuate.endpoint.web.EndpointLinksResolver == Exposing 2 endpoint(s) beneath base path '/actuator'
+2020/03/11 === [main] == INFO  == s.d.s.w.PropertySourcedRequestMappingHandlerMapping == Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020/03/11 === [main] == INFO  == o.s.security.web.DefaultSecurityFilterChain == Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@147e0734, org.springframework.security.web.context.SecurityContextPersistenceFilter@b01cb8d, org.springframework.security.web.header.HeaderWriterFilter@3b218c74, org.springframework.security.web.authentication.logout.LogoutFilter@100bba26, org.springframework.security.oauth2.provider.client.ClientCredentialsTokenEndpointFilter@7f4e5a39, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@44dd0d38, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7a814310, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3dc39459, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2bdab835, org.springframework.security.web.session.SessionManagementFilter@375084c9, org.springframework.security.web.access.ExceptionTranslationFilter@1192c925, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@439f2d87]
+2020/03/11 === [main] == INFO  == o.s.security.web.DefaultSecurityFilterChain == Creating filter chain: org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration$NotOAuthRequestMatcher@7d401cdc, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4a9b3956, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f949ab9, org.springframework.security.web.header.HeaderWriterFilter@4c04216f, org.springframework.web.filter.CorsFilter@4217bce6, org.springframework.security.web.authentication.logout.LogoutFilter@3afca2c, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@d6b532f, com.gaobo.system.config.BeforeLoginFilter@aa752bb, com.gaobo.system.config.AtLoginFilter@77fc19cf, com.gaobo.system.config.AfterLoginFilter@643ecfef, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5a7b6b75, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3719360c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b31af02, org.springframework.security.web.session.SessionManagementFilter@987a0bb, org.springframework.security.web.access.ExceptionTranslationFilter@ee96866, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2ccc9681]
+2020/03/11 === [main] == INFO  == o.s.security.web.DefaultSecurityFilterChain == Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b1252c8, org.springframework.security.web.context.SecurityContextPersistenceFilter@203b953c, org.springframework.security.web.header.HeaderWriterFilter@6e807e2, org.springframework.web.filter.CorsFilter@19d53ab4, org.springframework.security.web.authentication.logout.LogoutFilter@677cb96e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@730bea0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@41a16eb3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@53cb0bcb, org.springframework.security.web.session.SessionManagementFilter@6c995c5d, org.springframework.security.web.access.ExceptionTranslationFilter@5b44318]
+2020/03/11 === [main] == INFO  == o.s.scheduling.concurrent.ThreadPoolTaskExecutor == Initializing ExecutorService 'applicationTaskExecutor'
+2020/03/11 === [main] == INFO  == s.d.s.web.plugins.DocumentationPluginsBootstrapper == Context refreshed
+2020/03/11 === [main] == INFO  == s.d.s.web.plugins.DocumentationPluginsBootstrapper == Found 1 custom documentation plugin(s)
+2020/03/11 === [main] == INFO  == s.d.spring.web.scanners.ApiListingReferenceScanner == Scanning for api listing references
+2020/03/11 === [main] == INFO  == o.s.boot.web.embedded.tomcat.TomcatWebServer == Tomcat started on port(s): 8088 (http) with context path ''
+2020/03/11 === [main] == INFO  == com.gaobo.system.SystemApplication == Started SystemApplication in 4.746 seconds (JVM running for 5.391)
+2020/03/11 === [RMI TCP Connection(2)-192.168.1.103] == INFO  == o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] == Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020/03/11 === [RMI TCP Connection(2)-192.168.1.103] == INFO  == org.springframework.web.servlet.DispatcherServlet == Initializing Servlet 'dispatcherServlet'
+2020/03/11 === [RMI TCP Connection(3)-192.168.1.103] == INFO  == com.zaxxer.hikari.HikariDataSource == HikariPool-1 - Starting...
+2020/03/11 === [RMI TCP Connection(2)-192.168.1.103] == INFO  == org.springframework.web.servlet.DispatcherServlet == Completed initialization in 11 ms
+2020/03/11 === [RMI TCP Connection(3)-192.168.1.103] == INFO  == com.zaxxer.hikari.HikariDataSource == HikariPool-1 - Start completed.
+2020/03/11 === [http-nio-8088-exec-5] == INFO  == com.gaobo.system.config.CustomUserDetailsService == loadUserByUsername gaobo
+2020/03/11 === [http-nio-8088-exec-9] == ERROR == com.gaobo.system.config.MyControllerAdvice == 不允许访问
+org.springframework.security.access.AccessDeniedException: 不允许访问
+	at org.springframework.security.access.vote.AffirmativeBased.decide(AffirmativeBased.java:84) ~[spring-security-core-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.access.intercept.AbstractSecurityInterceptor.beforeInvocation(AbstractSecurityInterceptor.java:233) ~[spring-security-core-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:65) ~[spring-security-core-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93) ~[spring-aop-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at com.gaobo.system.control.HelloController$$EnhancerBySpringCGLIB$$8faa9588.user(<generated>) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_201]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) [spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90) [spring-boot-actuator-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at com.gaobo.system.config.AfterLoginFilter.doFilter(AfterLoginFilter.java:16) [classes/:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at com.gaobo.system.config.AtLoginFilter.doFilter(AtLoginFilter.java:16) [classes/:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at com.gaobo.system.config.BeforeLoginFilter.doFilter(BeforeLoginFilter.java:16) [classes/:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter.doFilter(OAuth2AuthenticationProcessingFilter.java:176) [spring-security-oauth2-2.2.1.RELEASE.jar:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117) [spring-boot-actuator-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106) [spring-boot-actuator-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at com.gaobo.system.config.CORSFilter.doFilter(CORSFilter.java:34) [classes/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_201]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_201]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_201]
+2020/03/11 === [http-nio-8088-exec-10] == INFO  == com.gaobo.system.config.CustomUserDetailsService == loadUserByUsername gaobo
+2020/03/11 === [http-nio-8088-exec-3] == INFO  == com.gaobo.system.config.CustomUserDetailsService == loadUserByUsername gaobo
+2020/03/11 === [http-nio-8088-exec-5] == ERROR == com.gaobo.system.config.MyControllerAdvice == 不允许访问
+org.springframework.security.access.AccessDeniedException: 不允许访问
+	at org.springframework.security.access.vote.AffirmativeBased.decide(AffirmativeBased.java:84) ~[spring-security-core-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.access.intercept.AbstractSecurityInterceptor.beforeInvocation(AbstractSecurityInterceptor.java:233) ~[spring-security-core-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:65) ~[spring-security-core-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93) ~[spring-aop-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at com.gaobo.system.control.HelloController$$EnhancerBySpringCGLIB$$8faa9588.user(<generated>) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_201]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) [spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90) [spring-boot-actuator-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at com.gaobo.system.config.AfterLoginFilter.doFilter(AfterLoginFilter.java:16) [classes/:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at com.gaobo.system.config.AtLoginFilter.doFilter(AtLoginFilter.java:16) [classes/:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at com.gaobo.system.config.BeforeLoginFilter.doFilter(BeforeLoginFilter.java:16) [classes/:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter.doFilter(OAuth2AuthenticationProcessingFilter.java:176) [spring-security-oauth2-2.2.1.RELEASE.jar:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) [spring-security-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117) [spring-boot-actuator-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106) [spring-boot-actuator-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at com.gaobo.system.config.CORSFilter.doFilter(CORSFilter.java:34) [classes/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_201]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_201]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_201]
+2020/03/11 === [main] == INFO  == com.gaobo.system.SystemApplication == The following profiles are active: dev
+2020/03/11 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == No MyBatis mapper was found in '[com.gaobo.system]' package. Please check your configuration.
+2020/03/11 === [main] == INFO  == o.springframework.cloud.context.scope.GenericScope == BeanFactory id=15496020-18e5-3f63-b38b-3e3d0bc60382
+2020/03/11 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ca704004] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/03/11 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$631e083e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/03/11 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/03/11 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@11e355ca' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/03/11 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$87f2aaf0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/03/11 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/03/11 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e68a4301] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/03/11 === [main] == INFO  == o.s.boot.web.embedded.tomcat.TomcatWebServer == Tomcat initialized with port(s): 8088 (http)
+2020/03/11 === [main] == INFO  == org.apache.catalina.core.StandardService == Starting service [Tomcat]
+2020/03/11 === [main] == INFO  == org.apache.catalina.core.StandardEngine == Starting Servlet engine: [Apache Tomcat/9.0.14]
+2020/03/11 === [main] == INFO  == org.apache.catalina.core.AprLifecycleListener == The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;D:\data\sqlserver\exe\share\120\DTS\Binn\;D:\data\sqlserver\exe\share\Client SDK\ODBC\110\Tools\Binn\;D:\data\sqlserver\exe\share_x86\120\Tools\Binn\;D:\data\sqlserver\exe\share\120\Tools\Binn\;D:\data\sqlserver\exe\share_x86\120\Tools\Binn\ManagementStudio\;D:\data\sqlserver\exe\share_x86\120\DTS\Binn\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37;;D:\data\前端\vscode\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm;.]
+2020/03/11 === [main] == INFO  == o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] == Initializing Spring embedded WebApplicationContext
+2020/03/11 === [main] == INFO  == org.springframework.web.context.ContextLoader == Root WebApplicationContext: initialization completed in 1774 ms
+2020/03/11 === [main] == WARN  == o.s.s.o.p.token.store.JwtAccessTokenConverter == Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2020/03/11 === [main] == INFO  == o.s.b.actuate.endpoint.web.EndpointLinksResolver == Exposing 2 endpoint(s) beneath base path '/actuator'
+2020/03/11 === [main] == INFO  == s.d.s.w.PropertySourcedRequestMappingHandlerMapping == Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020/03/11 === [main] == INFO  == o.s.security.web.DefaultSecurityFilterChain == Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55222ee9, org.springframework.security.web.context.SecurityContextPersistenceFilter@4bbf38b8, org.springframework.security.web.header.HeaderWriterFilter@6bb4cc0e, org.springframework.security.web.authentication.logout.LogoutFilter@57c69937, org.springframework.security.oauth2.provider.client.ClientCredentialsTokenEndpointFilter@5d66ae3a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4cae66a8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55bf35e5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@197ce367, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3181d4de, org.springframework.security.web.session.SessionManagementFilter@b01cb8d, org.springframework.security.web.access.ExceptionTranslationFilter@7b91d9f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@44dd0d38]
+2020/03/11 === [main] == INFO  == o.s.security.web.DefaultSecurityFilterChain == Creating filter chain: org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration$NotOAuthRequestMatcher@aa752bb, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77fc19cf, org.springframework.security.web.context.SecurityContextPersistenceFilter@3afca2c, org.springframework.security.web.header.HeaderWriterFilter@5a7b6b75, org.springframework.web.filter.CorsFilter@643ecfef, org.springframework.security.web.authentication.logout.LogoutFilter@47a3d56a, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@7f426ddd, com.gaobo.system.config.BeforeLoginFilter@1b31af02, com.gaobo.system.config.AtLoginFilter@2bb31455, com.gaobo.system.config.AfterLoginFilter@3c16528d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3855d9b2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@39f42d0e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e45a357, org.springframework.security.web.session.SessionManagementFilter@3719360c, org.springframework.security.web.access.ExceptionTranslationFilter@1f949ab9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4217bce6]
+2020/03/11 === [main] == INFO  == o.s.security.web.DefaultSecurityFilterChain == Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@51fe7f15, org.springframework.security.web.context.SecurityContextPersistenceFilter@677cb96e, org.springframework.security.web.header.HeaderWriterFilter@730bea0, org.springframework.web.filter.CorsFilter@5873f3f0, org.springframework.security.web.authentication.logout.LogoutFilter@53cb0bcb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b1252c8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@19d53ab4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@684372d0, org.springframework.security.web.session.SessionManagementFilter@41a16eb3, org.springframework.security.web.access.ExceptionTranslationFilter@203b953c]
+2020/03/11 === [main] == INFO  == o.s.scheduling.concurrent.ThreadPoolTaskExecutor == Initializing ExecutorService 'applicationTaskExecutor'
+2020/03/11 === [main] == INFO  == s.d.s.web.plugins.DocumentationPluginsBootstrapper == Context refreshed
+2020/03/11 === [main] == INFO  == s.d.s.web.plugins.DocumentationPluginsBootstrapper == Found 1 custom documentation plugin(s)
+2020/03/11 === [main] == INFO  == s.d.spring.web.scanners.ApiListingReferenceScanner == Scanning for api listing references
+2020/03/11 === [main] == INFO  == o.s.boot.web.embedded.tomcat.TomcatWebServer == Tomcat started on port(s): 8088 (http) with context path ''
+2020/03/11 === [main] == INFO  == com.gaobo.system.SystemApplication == Started SystemApplication in 5.062 seconds (JVM running for 5.821)
+2020/03/11 === [RMI TCP Connection(3)-192.168.1.103] == INFO  == o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] == Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020/03/11 === [RMI TCP Connection(3)-192.168.1.103] == INFO  == org.springframework.web.servlet.DispatcherServlet == Initializing Servlet 'dispatcherServlet'
+2020/03/11 === [RMI TCP Connection(4)-192.168.1.103] == INFO  == com.zaxxer.hikari.HikariDataSource == HikariPool-1 - Starting...
+2020/03/11 === [RMI TCP Connection(3)-192.168.1.103] == INFO  == org.springframework.web.servlet.DispatcherServlet == Completed initialization in 11 ms
+2020/03/11 === [RMI TCP Connection(4)-192.168.1.103] == INFO  == com.zaxxer.hikari.HikariDataSource == HikariPool-1 - Start completed.
+2020/03/11 === [main] == INFO  == com.gaobo.system.SystemApplication == The following profiles are active: dev
+2020/03/11 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == No MyBatis mapper was found in '[com.gaobo.system]' package. Please check your configuration.
+2020/03/11 === [main] == INFO  == o.springframework.cloud.context.scope.GenericScope == BeanFactory id=15496020-18e5-3f63-b38b-3e3d0bc60382
+2020/03/11 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$55cbd090] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/03/11 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$ee7998ca] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/03/11 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/03/11 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@403c3a01' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/03/11 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$134e3b7c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/03/11 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/03/11 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$71e5d38d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/03/11 === [main] == INFO  == o.s.boot.web.embedded.tomcat.TomcatWebServer == Tomcat initialized with port(s): 8088 (http)
+2020/03/11 === [main] == INFO  == org.apache.catalina.core.StandardService == Starting service [Tomcat]
+2020/03/11 === [main] == INFO  == org.apache.catalina.core.StandardEngine == Starting Servlet engine: [Apache Tomcat/9.0.14]
+2020/03/11 === [main] == INFO  == org.apache.catalina.core.AprLifecycleListener == The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;D:\data\sqlserver\exe\share\120\DTS\Binn\;D:\data\sqlserver\exe\share\Client SDK\ODBC\110\Tools\Binn\;D:\data\sqlserver\exe\share_x86\120\Tools\Binn\;D:\data\sqlserver\exe\share\120\Tools\Binn\;D:\data\sqlserver\exe\share_x86\120\Tools\Binn\ManagementStudio\;D:\data\sqlserver\exe\share_x86\120\DTS\Binn\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37;;D:\data\前端\vscode\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm;.]
+2020/03/11 === [main] == INFO  == o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] == Initializing Spring embedded WebApplicationContext
+2020/03/11 === [main] == INFO  == org.springframework.web.context.ContextLoader == Root WebApplicationContext: initialization completed in 1527 ms
+2020/03/11 === [main] == WARN  == o.s.s.o.p.token.store.JwtAccessTokenConverter == Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2020/03/11 === [main] == INFO  == o.s.b.actuate.endpoint.web.EndpointLinksResolver == Exposing 2 endpoint(s) beneath base path '/actuator'
+2020/03/11 === [main] == INFO  == s.d.s.w.PropertySourcedRequestMappingHandlerMapping == Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020/03/11 === [main] == INFO  == o.s.security.web.DefaultSecurityFilterChain == Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@26874f2c, org.springframework.security.web.context.SecurityContextPersistenceFilter@d84b3a2, org.springframework.security.web.header.HeaderWriterFilter@33de7f3d, org.springframework.security.web.authentication.logout.LogoutFilter@2b01c689, org.springframework.security.oauth2.provider.client.ClientCredentialsTokenEndpointFilter@3181d4de, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1ae924f1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@69feb4d9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@221ca495, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f3b84bd, org.springframework.security.web.session.SessionManagementFilter@ac4915e, org.springframework.security.web.access.ExceptionTranslationFilter@5e67a490, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@13ca16bf]
+2020/03/11 === [main] == INFO  == o.s.security.web.DefaultSecurityFilterChain == Creating filter chain: org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration$NotOAuthRequestMatcher@539316bb, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d1a859c, org.springframework.security.web.context.SecurityContextPersistenceFilter@6fb22ae3, org.springframework.security.web.header.HeaderWriterFilter@2424cb9d, org.springframework.web.filter.CorsFilter@28554ac8, org.springframework.security.web.authentication.logout.LogoutFilter@19ae36f4, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@7de35070, com.gaobo.system.config.BeforeLoginFilter@72224107, com.gaobo.system.config.AtLoginFilter@394fb736, com.gaobo.system.config.AfterLoginFilter@3070f3e6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6bd92538, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69a373fd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3271ec2a, org.springframework.security.web.session.SessionManagementFilter@7f51f588, org.springframework.security.web.access.ExceptionTranslationFilter@f017dd0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4e3283f6]
+2020/03/11 === [main] == INFO  == o.s.security.web.DefaultSecurityFilterChain == Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@32da97fd, org.springframework.security.web.context.SecurityContextPersistenceFilter@e01a26b, org.springframework.security.web.header.HeaderWriterFilter@65d9e72a, org.springframework.web.filter.CorsFilter@64440065, org.springframework.security.web.authentication.logout.LogoutFilter@314b7945, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7604198a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5cce40d7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4aa22cc2, org.springframework.security.web.session.SessionManagementFilter@1f7e52d1, org.springframework.security.web.access.ExceptionTranslationFilter@4fc6e776]
+2020/03/11 === [main] == INFO  == o.s.scheduling.concurrent.ThreadPoolTaskExecutor == Initializing ExecutorService 'applicationTaskExecutor'
+2020/03/11 === [main] == INFO  == s.d.s.web.plugins.DocumentationPluginsBootstrapper == Context refreshed
+2020/03/11 === [main] == INFO  == s.d.s.web.plugins.DocumentationPluginsBootstrapper == Found 1 custom documentation plugin(s)
+2020/03/11 === [main] == INFO  == s.d.spring.web.scanners.ApiListingReferenceScanner == Scanning for api listing references
+2020/03/11 === [main] == INFO  == o.s.boot.web.embedded.tomcat.TomcatWebServer == Tomcat started on port(s): 8088 (http) with context path ''
+2020/03/11 === [main] == INFO  == com.gaobo.system.SystemApplication == Started SystemApplication in 4.437 seconds (JVM running for 5.071)
+2020/03/11 === [RMI TCP Connection(1)-192.168.1.103] == INFO  == o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] == Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020/03/11 === [RMI TCP Connection(1)-192.168.1.103] == INFO  == org.springframework.web.servlet.DispatcherServlet == Initializing Servlet 'dispatcherServlet'
+2020/03/11 === [RMI TCP Connection(2)-192.168.1.103] == INFO  == com.zaxxer.hikari.HikariDataSource == HikariPool-1 - Starting...
+2020/03/11 === [RMI TCP Connection(1)-192.168.1.103] == INFO  == org.springframework.web.servlet.DispatcherServlet == Completed initialization in 9 ms
+2020/03/11 === [RMI TCP Connection(2)-192.168.1.103] == INFO  == com.zaxxer.hikari.HikariDataSource == HikariPool-1 - Start completed.
+2020/03/11 === [http-nio-8088-exec-1] == INFO  == com.gaobo.system.config.CustomUserDetailsService == loadUserByUsername gaobo
+2020/03/11 === [http-nio-8088-exec-4] == INFO  == com.gaobo.system.config.CustomUserDetailsService == loadUserByUsername gaobo
