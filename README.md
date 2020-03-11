@@ -19,8 +19,9 @@
 
 postman:
 
-https://github.com/momojiazhu/-oauth2/blob/master/data/1.png
+![图片1](https://github.com/momojiazhu/-oauth2/blob/master/data/1.png)
 
-https://github.com/momojiazhu/-oauth2/blob/master/data/2.png
+![图片2](https://github.com/momojiazhu/-oauth2/blob/master/data/2.png)
 
-https://github.com/momojiazhu/-oauth2/blob/master/data/3.png
+![图片3](https://github.com/momojiazhu/-oauth2/blob/master/data/3.png)
+
