@@ -30,13 +30,13 @@ public class Result implements Serializable {
         return r;
     }
 
-    public static Result ok(String msg) {
-        Result r = new Result();
-        r.setSuccess(true);
-        r.setCode(CommonConstants.SC_OK_200);
-        r.setMessage(msg);
-        return r;
-    }
+//    public static Result ok(String msg) {
+//        Result r = new Result();
+//        r.setSuccess(true);
+//        r.setCode(CommonConstants.SC_OK_200);
+//        r.setMessage(msg);
+//        return r;
+//    }
 
     public static Result ok(Object data) {
         Result r = new Result();

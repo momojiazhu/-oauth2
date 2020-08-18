@@ -1,59 +1,36 @@
 import axios from 'axios'
-import { getToken } from '@/utils/token'
-
-//这个是供文件操作的接口
-
-function getTokenF() {
-	let data_token = getToken();
-	let Bearer = 'Bearer ';
-	return {
-		'Content-Type': 'multipart/form-data',
-		'Authorization': Bearer + data_token
-	}
-}
-function getTokenF2() {
-	let data_token = getToken();
-	let Bearer = 'bearer ';
-	return {
-		'Content-Type': 'application/json',
-		'Authorization': Bearer + data_token
-	}
-}
+import { service,service2,service3,service4,baseURL2 } from '@/utils/request'
 
 //以流的形式获取文件
 export const getUploadFile = url => {
-  return axios.request({
-	url: 'http://localhost:8282/files/'+url,
+  return service4.request({
+	url: '/files/'+url,
 	method: 'get',
-    headers: getTokenF(),
     responseType: 'blob'
   })
 }
 //上传文件
 export const uploadFile = data => {
-	return axios.request({
-	  url: 'http://localhost:8282/files/2019-01-01',
+	return service4.request({
+	  url: '/files/2019-01-01',
 	  method: 'post',
-	  headers: getTokenF(),
 	  data
 	})
 }
 
 //删除文件
 export const delUploadFile = url => {
-	return axios.request({
-	  url: 'http://localhost:8282/files/'+url,
-	  method: 'delete',
-	  headers: getTokenF()
+	return service4.request({
+	  url: '/files/'+url,
+	  method: 'delete'
 	})
 }
 
 //获取文件列表
 export const selectFileList = () => {
-	return axios.request({
-	  url: 'http://localhost:8282/selectFileList',
-	  method: 'post',
-	  headers: getTokenF2()
+	return service3.request({
+	  url: '/selectFileList',
+	  method: 'post'
 	})
 }
 
@@ -65,6 +42,8 @@ export function uploadFileFun(file){
 }
 
 export function getWordFun(url){
-	return 'http://39.107.34.210:8282/files/'+url;
+	let str = baseURL2+'files/'+url;
+	console.log(str);
+	return str;
 }
 

@@ -12,8 +12,7 @@
 <script>
 import HelloWorld from '@/components/HelloWorld.vue'
 import { Test1,Test2,accountLogin } from "@/api/register";
-import { setToken,getToken } from "@/utils/token.js";
-import { delCookie } from "@/utils/token";
+import { getToken, setToken, removeToken } from '@/utils/token'
 
 export default {
   name: 'home',
@@ -23,14 +22,14 @@ export default {
   methods:{
     test(){
       Test1().then(res =>{
-        console.log(res.data);
+        console.log(res.data.result);
       }).catch(err =>{
         console.log(err);
       })
     },
     test2(){
       Test2().then(res =>{
-        console.log(res.data);
+        console.log(res.data.result);
       }).catch(err =>{
         console.log(err);
       })
@@ -45,7 +44,7 @@ export default {
     },
     //退出暂时在前端删除token，是不是也应该在后端也将token失效，这个没细研究
     logout(){
-      delCookie("token");
+      removeToken();
     },
     goImg(){
       this.$router.push({name:'img'});

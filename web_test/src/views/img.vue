@@ -18,12 +18,17 @@
   </div>
 </template>
 <script>
-import { uploadFileFun, selectFileList, getUploadFile, delUploadFile } from "@/api/uploadFile";
+import {
+  uploadFileFun,
+  selectFileList,
+  getUploadFile,
+  delUploadFile,
+} from "@/api/uploadFile";
 export default {
   data() {
     return {
       imgArray: [],
-      img: null
+      img: null,
     };
   },
   created() {
@@ -32,63 +37,56 @@ export default {
   methods: {
     beforeUpload(file) {
       uploadFileFun(file)
-        .then(res => {
-          alert(JSON.stringify(res.data));
+        .then((res) => {
           this.selectFileList();
         })
-        .catch(err => {
-          alert("err");
+        .catch((err) => {
+          console.log("err");
         });
       return false;
     },
     selectFileList() {
       selectFileList()
-        .then(res => {
-          if (res.data.success) {
-            this.imgArray = res.data.result;
-          }
+        .then((res) => {
+          this.imgArray = res.data.result;
         })
-        .catch(err => {
-          alert("err");
+        .catch((err) => {
+          console.log("err");
         });
     },
     //以流的形式返回图片这样写
     showImg(url) {
       getUploadFile(url)
-        .then(res => {
-          let that = this;  
+        .then((res) => {
+          let that = this;
           const content = res.data;
           const blob = new Blob([content]);
-          this.blobToDataURI(blob, function(result) {
+          this.blobToDataURI(blob, function (result) {
             //blob格式再转换为base64格式
             that.img = result;
-            
           });
         })
-        .catch(err => {
+        .catch((err) => {
           alert("err");
         });
     },
     delImg(url) {
       delUploadFile(url)
-        .then(res =>{
-           if(res.data.success){
-              alert(res.data.message);
-              this.selectFileList();
-           }
-        }).catch(err => {
-           alert("err"); 
+        .then((res) => {
+          this.selectFileList();
         })
-
+        .catch((err) => {
+          alert("err");
+        });
     },
     blobToDataURI(blob, callback) {
       var reader = new FileReader();
       reader.readAsDataURL(blob);
-      reader.onload = function(e) {
+      reader.onload = function (e) {
         callback(e.target.result);
       };
-    }
-  }
+    },
+  },
 };
 </script>
 <style scoped>

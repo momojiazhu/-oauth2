@@ -48,17 +48,17 @@ public class HelloController {
     @GetMapping("system")
     @PreAuthorize("hasAnyRole('admin','normal','user')")
     @ApiOperation("测试接口1")
-    public String system(){
+    public Result system(){
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         String username = (String) authentication.getPrincipal();
-        return username;
+        return Result.ok(username);
     }
 
     @GetMapping("user")
     @PreAuthorize("hasAnyRole('user')")
     @ApiOperation("测试接口2")
-    public String user(){
-        return "user";
+    public Result user(){
+        return Result.ok("user");
     }
 
     @PostMapping("/dept/add")
